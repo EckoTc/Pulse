@@ -9,5 +9,5 @@ $User= "NT AUTHORITY\SYSTEM" # Specify the account to run the script
 $Action= New-ScheduledTaskAction -Execute "cmd.exe" -Argument "C:\Temp\PulseNetworkConnectCompiled.bat" # Specify what program to run and with its parameters
 Register-ScheduledTask -TaskName "PulseSecureInstall" -Trigger $Trigger -User $User -Action $Action -RunLevel Highest -Force # Specify the name of the task
 
-Invoke-webrequest -Uri https://raw.githubusercontent.com/EckoTc/Pulse/main/Default.pulsepreconfig -outfile c:\temp\Default.pulseconfig
-Invoke-webrequest -Uri https://raw.githubusercontent.com/EckoTc/Pulse/main/PulseNetworkConnectCompiled.bat -outfile PulseNetworkConnectCompiled.bat
+Invoke-webrequest -Uri https://raw.githubusercontent.com/EckoTc/Pulse/main/Default.pulsepreconfig -outfile C:\Temp\Default.pulseconfig
+Invoke-webrequest -Uri https://raw.githubusercontent.com/EckoTc/Pulse/main/PulseNetworkConnectCompiled.bat -outfile C:\Temp\PulseNetworkConnectCompiled.bat
