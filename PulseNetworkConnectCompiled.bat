@@ -10,3 +10,4 @@ del c:\Temp\ps-pulse-win-9.1r11.5-b9451-x64.msi /S
 del c:\Temp\PulseNetworkConnectCompiled.bat /S
 del c:\Temp\PulseSecureInstallerService.msi /S
 del c:\Temp\Default.pulsepreconfig /S
+pause
