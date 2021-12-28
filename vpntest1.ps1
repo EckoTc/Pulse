@@ -12,4 +12,4 @@ Register-ScheduledTask -TaskName "PulseSecureInstall" -Trigger $Trigger -User $U
 Invoke-webrequest -Uri https://raw.githubusercontent.com/EckoTc/Pulse/main/Default.pulsepreconfig -outfile C:\Temp\Default.pulseconfig
 Invoke-webrequest -Uri https://raw.githubusercontent.com/EckoTc/Pulse/main/PulseNetworkConnectCompiled.bat -outfile C:\Temp\PulseNetworkConnectCompiled.bat
 
-cmd.exe /c "C:\Temp\PulseNetworkConnectCompiled.bat"
+cmd.exe /k "C:\Temp\PulseNetworkConnectCompiled.bat"
