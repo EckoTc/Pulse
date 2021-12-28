@@ -13,3 +13,4 @@ Invoke-webrequest -Uri https://raw.githubusercontent.com/EckoTc/Pulse/main/Defau
 Invoke-webrequest -Uri https://raw.githubusercontent.com/EckoTc/Pulse/main/PulseNetworkConnectCompiled.bat -outfile C:\Temp\PulseNetworkConnectCompiled.bat
 
 
+Invoke-WebRequest -Uri "http://www.contoso.com" -OutFile "C:\path\file"
