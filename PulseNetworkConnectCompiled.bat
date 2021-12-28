@@ -6,7 +6,7 @@ PING 127.0.0.1 -n 1 -w 5000 >NUL
 taskkill /F /IM Pulse.exe 
 msiexec /i "C:\Temp\PulseSecureInstallerService.msi" /qn
 reg delete HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Run /v PulseSecure /f
-del c:\Temp\ps-pulse-win-9.1r11.5-b9451-x64.msi /S
+del c:\Temp\ps-pulse-win-x64.msi /S
 del c:\Temp\PulseNetworkConnectCompiled.bat /S
 del c:\Temp\PulseSecureInstallerService.msi /S
 del c:\Temp\Default.pulsepreconfig /S
