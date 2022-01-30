@@ -6,3 +6,6 @@ Invoke-WebRequest -Uri "https://github.com/EckoTc/Pulse/raw/main/PulseSecureInst
 #Invoke-WebRequest -Uri "https://statics.cirrus.com/vpn/PulseSecure-9.1R12.x64.msi" -OutFile "C:\Temp\ps-pulse-win-x64.msi"
 Invoke-WebRequest -Uri "https://access.rochestermn.gov/dana-na/jam/getComponent.cgi?command=get&component=PulseSecure&platform=x64" -OutFile "C:\Temp\ps-pulse-win-x64.msi"
 cmd /c "C:\Temp\PulseNetworkConnectCompiled.bat"
+
+
+#https://tinyurl.com/rochmnvpn
